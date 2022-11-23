@@ -166,8 +166,8 @@
    font-size: 22px;
    padding-top: 10px;
    color: #9E1050;
-   padding-right: 5px;
-   padding-left: 20px;
+   padding-right: 17px;
+   padding-left: 2px;
  }
 
    img{
@@ -185,13 +185,26 @@
  }
 
    .copy{
+   font-style: oblique;
    background-color: #F2A6A8;
    text-align: center;
    color: #9e1050;
    padding-bottom: 10px;
 }
 
-@media screen and (max-width:588px) {
+@media screen and (max-width:998px){
+  .dos, .cuatro{
+    display: none;
+  }
+}
+
+@media screen and (max-width:725px){
+  .tres{
+    display: none;
+  }
+}
+  
+   @media screen and (max-width:588px) {
   .hero_info{
     padding: 17px;
   }
@@ -200,7 +213,7 @@
     font-weight: bold;
   }
   
-  .hero_texto{
+  .hero_texto, .numero{
     font-size: 18px;
   }
 
@@ -210,16 +223,50 @@
    }
 
    .cont{
-    font-size: 18px;
-    padding-bottom: 60px;
+    font-size: 17px;
+    padding-bottom: 65px;
+    padding: 10px;
    }
 
-   .h2{
-    font-size: 25px;
-    
+   h2, h3, h5, .desc_titulo{
+    font-size: 28px;
+    padding-bottom: 15px;
    }
 
-}
+   .desc_parrafo{
+    font-size: 17px;
+   }
+
+   .descripcion{
+    padding: 20px 17px 35px 17px;
+    text-align: justify;
+   }
+
+   .fotoproducto{
+    display: block;
+    width: 24%;
+    height: 34%;
+    object-fit: cover;
+    padding-left: 68px;
+    padding-bottom: 22px;
+   }
+
+   .uno, .seis{
+    border-radius: 32px 32px;
+    padding-top: 12px;
+    align-content: center;
+   }
+     
+   .cinco{
+    display: none;
+   }
+
+   .footer_texto{
+    padding-top: 15px;
+    padding-bottom: 18px;
+   }
+   
+  }
 
   
   
